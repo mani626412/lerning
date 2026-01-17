@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: lerning
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/quilrdb
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
